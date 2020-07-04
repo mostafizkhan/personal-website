@@ -1,0 +1,120 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+section{
+    height: 1070px; 
+    padding-bottom: 150pxS;
+
+}
+
+
+
+
+h1{
+    font-size: 50px;
+}
+
+#name-color{
+    color: cyan;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-top: 150px;
+
+}
+
+.half-width img{
+    width: 90%;
+}
+
+.text1{
+    padding-left: 12%;
+}
+
+.top-part{
+    
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, cyan, seagreen);
+    font-weight: 700 ;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+
+.pic-bio{
+    padding-left: 8%;
+
+}
+
+.text-bio{
+    margin: 6% ;
+    padding-top: 15%;
+
+}
+
+.bio-part{
+    background-image: url("images/Webp.net-resizeimage\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+
+
+
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+.column{
+    
+    float: left;
+    width: 30%;
+    padding:5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.foot{
+    background-image: url(images/footer-bg.png);
+    text-align: center;
+    
+}
+
+#box{
+    margin-left: 700px;
+    background-image : linear-gradient( orchid, pink);
+    height: 200px;
+    width: 600px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+}
