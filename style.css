@@ -80,15 +80,19 @@ h3{
     font-size: 40px;
     text-align: center;
 }
-.column{
-    
-    float: left;
-    width: 28%;
-    padding:5px;
-}
+
+
 .row{
-    padding-left:  11%;
+   
+    text-align: center;
+    float: left;
 }
+.row img{
+    width: 28%;
+}
+
+
+
 .row::after{
     content: "";
     display: table;
@@ -100,11 +104,11 @@ h3{
 .foot{
     background-image: url(images/footer-bg.png);
     text-align: center;
+    margin: auto;
     
 }
 
-#box{
-    margin-left: 700px;
+.box{  
     background-image : linear-gradient( orchid, pink);
     height: 200px;
     width: 600px;
@@ -112,6 +116,7 @@ h3{
     color: white;
     text-align: center;
     padding-top: 100px;
+    margin: auto;
     
 }
 
